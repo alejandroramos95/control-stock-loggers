@@ -1,0 +1,22 @@
+Consigna 1
+
+Inicio profiling
+node --prof index.js
+
+Consigna 2
+reporte1artillery.png
+artillery quick -c 50 -n 20 "http://localhost:8080/info" > artillery-info.log
+
+Desencriptar el archivo generado
+reporte2info-log.txt
+node --prof-process info-v8.log > info-log.txt
+
+Consigna 3
+
+Datos Autocannon
+npm start
+
+Datos Autocannon
+npm test
+
+Carpeta con graphflame generada, dentro del proyecto

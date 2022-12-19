@@ -1,0 +1,11 @@
+// LEVANTO SERVIDOR MODO FORK
+
+pm2 start server.js --name="ServerFork" --watch -- -p 8080
+
+// LEVANTO SERVIDOR MODO CLUSTER
+
+pm2 start server.js --name="ServerCluster1" --watch -i max -- -p 8081
+pm2 start server.js --name="ServerCluster2" --watch -i max -- -p 8082
+pm2 start server.js --name="ServerCluster3" --watch -i max -- -p 8083
+pm2 start server.js --name="ServerCluster4" --watch -i max -- -p 8084
+pm2 start server.js --name="ServerCluster5" --watch -i max -- -p 8085
