@@ -8,8 +8,7 @@ function createOnMongoStore() {
   const advancedOptions = { useNewUrlParser: true, useUnifiedTopology: true }
   return session({
     store: MongoStore.create({
-      mongoUrl:
-        'mongodb+srv://coderBackend:coderBackendPW@clustercoderbackend.tct9by1.mongodb.net/cursobackend2022?retryWrites=true&w=majority',
+      mongoUrl: mongodbUrl,
       mongoOptions: advancedOptions,
       ttl: 60,
       collectionName: 'sessions',

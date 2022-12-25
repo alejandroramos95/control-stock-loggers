@@ -6,8 +6,7 @@ const mongodbUrl = process.env.MONGODBATLAS
 
 module.exports = class Chat {
   constructor() {
-    this.url =
-      'mongodb+srv://coderBackend:coderBackendPW@clustercoderbackend.tct9by1.mongodb.net/cursobackend2022?retryWrites=true&w=majority'
+    this.url = mongodbUrl
     this.mongodb = mongoose.connect
   }
 
