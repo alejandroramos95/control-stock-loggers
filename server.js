@@ -12,7 +12,7 @@ const { Server: HttpServer } = require('http')
 const { Server: IOServer } = require('socket.io')
 
 const app = express()
-const PORT = args.port
+const PORT = process.env.PORT || args.port
 const httpServer = new HttpServer(app)
 const io = new IOServer(httpServer)
 ;(module.exports = io), args
