@@ -2,13 +2,14 @@ require('dotenv').config()
 const session = require('express-session')
 const MongoStore = require('connect-mongo')
 const bCrypt = require('bcrypt')
-const mongodbUrl = process.env.MONGODBATLAS;
+const mongodbUrl = process.env.MONGODBATLAS
 
 function createOnMongoStore() {
   const advancedOptions = { useNewUrlParser: true, useUnifiedTopology: true }
   return session({
     store: MongoStore.create({
-      mongoUrl: mongodbUrl,
+      mongoUrl:
+        'mongodb+srv://coderBackend:coderBackendPW@clustercoderbackend.tct9by1.mongodb.net/cursobackend2022?retryWrites=true&w=majority',
       mongoOptions: advancedOptions,
       ttl: 60,
       collectionName: 'sessions',

@@ -2,12 +2,12 @@ require('dotenv').config()
 const mongoose = require('mongoose')
 const UsuariosModel = require('../models/UsuariosModel.js')
 const UtilsSession = require('./UtilsSession.js')
-const mongodbUrl = process.env.MONGODBATLAS;
-
+const mongodbUrl = process.env.MONGODBATLAS
 
 module.exports = class SessionService {
   constructor() {
-    this.url = mongodbUrl
+    this.url =
+      'mongodb+srv://coderBackend:coderBackendPW@clustercoderbackend.tct9by1.mongodb.net/cursobackend2022?retryWrites=true&w=majority'
     this.mongodb = mongoose.connect
   }
 

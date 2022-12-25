@@ -2,11 +2,12 @@ require('dotenv').config()
 const mongoose = require('mongoose')
 const { schema } = require('../models/MensajesModel.js')
 const MensajesModel = require('../models/MensajesModel.js')
-const mongodbUrl = process.env.MONGODBATLAS;
+const mongodbUrl = process.env.MONGODBATLAS
 
 module.exports = class Chat {
   constructor() {
-    this.url = mongodbUrl
+    this.url =
+      'mongodb+srv://coderBackend:coderBackendPW@clustercoderbackend.tct9by1.mongodb.net/cursobackend2022?retryWrites=true&w=majority'
     this.mongodb = mongoose.connect
   }
 

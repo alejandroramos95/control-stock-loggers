@@ -27025,3 +27025,7 @@
 {"level":30,"time":1671449282232,"pid":13856,"hostname":"DESKTOP-U9O2N3U","msg":"Petición entrante -----> Ruta: /info, method: GET"}
 {"level":30,"time":1671449282233,"pid":13856,"hostname":"DESKTOP-U9O2N3U","msg":"Petición entrante -----> Ruta: /info, method: GET"}
 {"level":30,"time":1671449282233,"pid":13856,"hostname":"DESKTOP-U9O2N3U","msg":"Petición entrante -----> Ruta: /info, method: GET"}
+{"level":30,"time":1671986230006,"pid":15568,"hostname":"DESKTOP-U9O2N3U","msg":"Petición entrante -----> Ruta: /login, method: GET"}
+{"level":30,"time":1671986230138,"pid":15568,"hostname":"DESKTOP-U9O2N3U","msg":"Petición entrante -----> Ruta: /favicon.ico, method: GET"}
+{"level":30,"time":1671986230838,"pid":15568,"hostname":"DESKTOP-U9O2N3U","msg":"Petición entrante -----> Ruta: /main, method: GET"}
+{"level":40,"time":1671986230838,"pid":15568,"hostname":"DESKTOP-U9O2N3U","msg":"Ruta incorrecta"}
